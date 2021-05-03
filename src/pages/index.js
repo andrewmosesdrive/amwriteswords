@@ -1,5 +1,7 @@
 import * as React from "react"
-import ButtonAppBar from '../components/appBar'
+import ButtonAppBar from '../components/appBar';
+import Grid from '@material-ui/core/Grid';
+
 
 // styles
 const pageStyles = {
@@ -20,16 +22,27 @@ const headingAccentStyles = {
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <ButtonAppBar/>
+      <ButtonAppBar />
       <title>Home Page</title>
-      <h1 style={headingStyles}>
-        Congratulations
-        <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
-        <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
-        </span>
-      </h1>
+      <Grid
+        container
+        direction="column"
+        justify="center"
+        alignItems="stretch"
+      >
+        <Grid
+          item
+        >
+          grid item 1
+        </Grid>
+        <Grid item>
+          grid item 2
+        </Grid>
+        <Grid item>
+          grid item 3
+        </Grid>
+      </Grid>
+
     </main>
   )
 }
