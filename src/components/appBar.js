@@ -12,13 +12,14 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
+  // menuButton: {
+  //   marginRight: theme.spacing(2),
+  // },
   title: {
     flexGrow: 1,
+    color: 'black'
   },
-  
+
 }));
 
 export default function ButtonAppBar() {
@@ -26,13 +27,13 @@ export default function ButtonAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" style={{backgroundColor: 'transparent', boxShadow: 'none'}}>
         <Toolbar>
           <Typography variant="h3" className={classes.title}>
             amwriteswords
           </Typography>
           <div >
-            <img src={img} alt="logo" style={{ height: '4rem' }} />
+            <img src={img} alt="logo" style={{ height: '5rem',  }} />
           </div>
         </Toolbar>
 
