@@ -1,21 +1,13 @@
 import * as React from "react"
 import ButtonAppBar from '../components/appBar';
 import Grid from '@material-ui/core/Grid';
-
+import NewestBook from '../components/newestBook'
 
 // styles
 const pageStyles = {
   color: "#232129",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-const headingAccentStyles = {
-  color: "#663399",
 }
 
 // markup
@@ -33,7 +25,7 @@ const IndexPage = () => {
         <Grid
           item
         >
-          grid item 1
+          <NewestBook/>
         </Grid>
         <Grid item>
           grid item 2
