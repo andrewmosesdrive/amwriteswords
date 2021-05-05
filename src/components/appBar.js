@@ -6,6 +6,7 @@ import Typography from '@material-ui/core/Typography';
 // import Button from '@material-ui/core/Button';
 // import IconButton from '@material-ui/core/IconButton';
 // import MenuIcon from '@material-ui/icons/Menu';
+import img from '../images/logo.png'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -17,6 +18,7 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
   },
+  
 }));
 
 export default function ButtonAppBar() {
@@ -29,8 +31,14 @@ export default function ButtonAppBar() {
           <Typography variant="h3" className={classes.title}>
             amwriteswords
           </Typography>
+          <div >
+            <img src={img} alt="logo" style={{ height: '4rem' }} />
+          </div>
         </Toolbar>
+
       </AppBar>
+
+
     </div>
   );
 }
