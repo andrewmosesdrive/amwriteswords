@@ -4,6 +4,7 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography'
+import img from '../images/sadderSongsImg.png'
 
 const cardStyle = {
     maxWidth: '345px'
@@ -14,11 +15,12 @@ export default function NewestBook() {
       <Card className={cardStyle.maxWidth}>
       <CardActionArea>
         <CardMedia
-          component="img"
-          alt="Contemplative Reptile"
-          height="140"
-          image="asdfadsafs"
-          title="Contemplative Reptile"
+          
+          component='img'
+          height="100"
+          width="100"
+          image={img}
+          title="Sadder Songs Book Cover"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
