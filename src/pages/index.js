@@ -27,12 +27,6 @@ const IndexPage = () => {
         >
           <NewestBook/>
         </Grid>
-        <Grid item>
-          grid item 2
-        </Grid>
-        <Grid item>
-          grid item 3
-        </Grid>
       </Grid>
 
     </main>

@@ -14,9 +14,13 @@ const cardStyle = {
 const useStyles = makeStyles({
     root: {
         maxWidth: 345,
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        marginTop: '50px'
     },
     media: {
-        height: 140,
+        margin: '10px',
     },
 });
 
@@ -26,9 +30,9 @@ export default function NewestBook() {
 
     return (
         <Card className={classes.root}>
-            <CardActionArea>
+            <CardActionArea className={classes.root} >
                 <div>
-                    <img src={`${img}`} alt="Sadder Songs Book Cover"></img>
+                    <img src={`${img}`} alt="Sadder Songs Book Cover" className={classes.media}></img>
                 </div>
 
                 <CardContent>
