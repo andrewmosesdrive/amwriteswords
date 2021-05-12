@@ -1,7 +1,9 @@
 import * as React from "react"
 import ButtonAppBar from '../components/appBar';
 import Grid from '@material-ui/core/Grid';
-import NewestBook from '../components/newestBook'
+import NewestBook from '../components/newestBook';
+import aboutMe from '../components/aboutMe';
+import AboutMe from "../components/aboutMe";
 
 // styles
 const pageStyles = {
@@ -26,6 +28,9 @@ const IndexPage = () => {
           item
         >
           <NewestBook/>
+        </Grid>
+        <Grid item>
+          <AboutMe/>
         </Grid>
       </Grid>
 

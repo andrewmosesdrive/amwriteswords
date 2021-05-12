@@ -17,7 +17,7 @@ const useStyles = makeStyles({
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
-        marginTop: '50px'
+        marginTop: '15px'
     },
     media: {
         margin: '10px',
@@ -41,7 +41,7 @@ export default function NewestBook() {
                         "Sadder Songs" out now!
           </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
-                        The second book of poetry in the series is now available through Amazon. Click on this tile to check it out on Amazon!
+                        The second book of poetry in the series is now available through Amazon. Click here to check it out on Amazon!
           </Typography>
                 </CardContent>
             </CardActionArea>

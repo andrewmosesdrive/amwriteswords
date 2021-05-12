@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
   },
   navBar: {
     backgroundColor: 'transparent',
-    boxShadow: 'none'
+    boxShadow: 'none',
   },
   image: {
     height: '5rem'
