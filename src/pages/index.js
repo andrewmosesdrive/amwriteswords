@@ -22,7 +22,7 @@ const IndexPage = () => {
         container
         direction="column"
         justify="center"
-        // alignItems="stretch"
+        
       >
         <Grid
           item

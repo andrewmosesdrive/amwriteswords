@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: 'none',
   },
   image: {
-    height: '5rem'
+    height: '8rem'
   }
 
 }));
@@ -31,7 +31,7 @@ export default function ButtonAppBar() {
     <div className={classes.root}>
       <AppBar position="static" className={classes.navBar}>
         <Toolbar>
-          <Typography variant="h3" className={classes.title}>
+          <Typography variant="h1" className={classes.title}>
             amwriteswords
           </Typography>
           <div >

@@ -14,8 +14,11 @@ export default function AboutMe() {
   
     return (
     <div className={classes.root}>
-      <Typography variant='h1' component='h2' gutterBottom>
-          asdfasdfasdafsdfa
+      <Typography variant='h2' component='h2' gutterBottom>
+          About
+      </Typography>
+      <Typography variant='h7' component='h7' gutterBottom>
+        lahsdfjkalsdhjahdsjafhlsdhafjkljksdhflajhdskfhdsjlajhfaldsajskdhklfahldsfhjalhsdhfa
       </Typography>
     </div>
   );
